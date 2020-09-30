@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    {
+      "loader": "java_plain",
+      "id": "spongetest",
+      "name": "SpongeTest",
+      "version": "1.0.0-SNAPSHOT",
+      "main-class": "fi.joniaromaa.spongetest.SpongeTestPlugin",
+      "description": "Sponge test plugin!",
+      "dependencies": [
+        {
+          "id": "spongeapi",
+          "version": "8.0.0"
+        }
+      ],
+      "extra": {}
+    }
+  ]
+}

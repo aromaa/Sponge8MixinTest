@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8.1",
+  "package": "fi.joniaromaa.spongetest.mixin",
+  "refmap": "mixins.test.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "server": [
+  ],
+  "mixins": [
+    "MixinTest"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
