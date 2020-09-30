@@ -53,6 +53,12 @@ dependencies {
 	annotationProcessor('org.spongepowered:mixin:0.8.1-SNAPSHOT:processor')
 }
 
+sourceSets {
+	main {
+		ext.refMap = "mixins.test.refmap.json"
+	}
+}
+
 jar {
 	manifest.attributes(
 			'MixinConfigs': 'mixins.test.json',
